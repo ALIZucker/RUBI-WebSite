@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#lego-container {
+    text-align: center;
+    background-color: #272727;
+}
+
+#logo-web {
+    width: 126px;
+    height: 35px;
+}
+
+#nav-container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    background-color: #272727;
+    color: white;
+}
+
+#profil-box > img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin-left: 2em;
+}
+
+
+#profil-box {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#back-image {
+    width: 58px;
+    height: 58px;
+    border: 2px white solid;
+    border-radius: 50%;
+    margin-left: 1.1em;
+}
+
+#back-image img {
+    width: 20px;
+    height: 20px;
+    padding: 17px
+}
+
+#input-search {
+    width: 250px;
+    height: 58px;
+    background-color: #272727;
+    color: white;
+    direction: rtl;
+    padding: 0px 10px;
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+#item-nav {
+    width: 50%;
+    margin-left: 10%;
+
+}
+
+#item-nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding-top: 1.2em;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 350;
+    cursor: pointer;
+}
+
+#main-img-box {
+    position: absolute;
+    z-index: -2;
+    background-color: #272727;
+    width: 100%;
+    height: 580px;
+}
+
+#main-img {
+    float: right;
+    height: 600px;
+    width: 520px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+#title-main {
+    color: white;
+    padding-top: 150px;
+    padding-left: 65px;
+    font-size: 100px;
+    direction: rtl;
+    text-align: center;
+}
+
+#description-main {
+    color: dimgrey;
+    font-size: 25px;
+    direction: rtl;
+    text-align: right;
+    padding-right: 700px;
+}
+
+#bot-content {
+
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 60px;
+    width: 500px;
+    height: 65px
+
+}
+
+#bot-rubi {
+    color: white;
+    height: 65px;
+    background-color: darkorange;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+#bot-store {
+    color: white;
+    background-color: dimgrey;
+    font-size: 20px;
+    padding: 20px 40px;
+    height: 65px;
+    text-decoration: none;
+}
+
+#ghab-main {
+    position: absolute;
+    height: 600px;
+    width: 520px;
+    margin-left: 62vw;
+    margin-top: 12vh;
+    z-index: -1;
+}
+
+.grid-container {
+    margin-top: 150px;
+    display: grid;
+}
+
+.item1 {
+    grid-column: 1/4;
+    grid-row: 1;
+    position: relative;
+
+}
+
+.item2 {
+    grid-column: 3;
+    grid-row: 1/3;
+    position: relative;
+}
+
+.item3 {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1;
+    grid-row: 2/5;
+    position: relative;
+}
+
+.item5 {
+    grid-column: 2/4;
+    grid-row: 3/5;
+    position: relative;
+}
+.item4{
+    position: relative;
+}
+
+.item1 > img {
+    margin-left: 2em;
+    width: 1029px;
+    height: 329px;
+}
+
+.item2 > img {
+    width: 505px;
+    height: 581px;
+}
+
+.item31 > img {
+    width: 330px;
+    height: 520px;
+}
+
+.item32 > img {
+    width: 330px;
+    height: 520px;
+}
+
+.item4 > img {
+    width: 386px;
+    height: 256px;
+}
+
+.item5 > img {
+
+    width: 957px;
+    height: 256px;
+}
+
+.item1 > h3 {
+    position: absolute;
+    left: 56vw;
+    top: 36vh;
+    font-size: 30px;
+    color: #eae9e9;
+    text-shadow: 2px 2px 2px black
+}
+.item2 > h3 {
+    position: absolute;
+    left: 1vw;
+    top: 70vh;
+    font-size: 30px;
+    color: #eae9e9;
+    text-shadow: 2px 2px 2px black
+}
+.item4 > h3 {
+    position: absolute;
+    left: 14vw;
+    top: 27vh;
+    font-size: 30px;
+    color: #eae9e9;
+    text-shadow: 2px 2px 2px black
+}
+.item5 > h3 {
+    position: absolute;
+    left: 50vw;
+    top: 27vh;
+    font-size: 30px;
+    color: #eae9e9;
+    text-shadow: 2px 2px 2px black
+}
+.item31 > h3 {
+    position: absolute;
+    left: 12vw;
+    top: 60vh;
+    font-size: 30px;
+    color: #eae9e9;
+    text-shadow: 2px 2px 2px black
+}
+.item32> h3 {
+    position: absolute;
+    left: 32vw;
+    top: 60vh;
+    font-size: 30px;
+    color: #eae9e9;
+    text-shadow: 2px 2px 2px black
+}
