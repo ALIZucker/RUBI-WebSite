@@ -91,48 +91,47 @@
 }
 
 #main-img {
-    float: right;
-    height: 600px;
-    width: 520px;
-    margin-right: 50px;
-    margin-top: 50px;
+    position: absolute;
+    height: 85vh;
+    width: 32vw;
+    margin-left: 65vw;
+    margin-top: 8vh;
 
 }
 
 #title-main {
     color: white;
-    padding-top: 150px;
-    padding-left: 65px;
-    font-size: 100px;
-    direction: rtl;
-    text-align: center;
+    padding-top: 15vh;
+    padding-left: 13vw;
+    font-size: 5vw;
+    direction: ltr;
+
 }
 
 #description-main {
     color: dimgrey;
-    font-size: 25px;
+    font-size: 1.4vw;
     direction: rtl;
     text-align: right;
-    padding-right: 700px;
+    padding-right: 47vw;
+    margin-top: 4vh;
 }
 
 #bot-content {
 
     display: inline-block;
-    margin-left: 30%;
-    margin-top: 60px;
-    width: 500px;
-    height: 65px
+    margin-left: 25vw;
+    margin-top: 11vh;
+
 
 }
 
 #bot-rubi {
     color: white;
-    height: 65px;
     background-color: darkorange;
     font-size: 20px;
-    margin-left: 50px;
-    padding: 20px 40px;
+    margin-left: 5vw;
+    padding: 1vw 5vh;
     text-decoration: none;
 }
 
@@ -140,16 +139,16 @@
     color: white;
     background-color: dimgrey;
     font-size: 20px;
-    padding: 20px 40px;
-    height: 65px;
+    padding: 1vw 5vh;
+
     text-decoration: none;
 }
 
 #ghab-main {
     position: absolute;
-    height: 600px;
-    width: 520px;
-    margin-left: 62vw;
+    height: 87vh;
+    width: 35vw;
+    margin-left: 60vw;
     margin-top: 12vh;
     z-index: -1;
 }
@@ -185,40 +184,47 @@
     grid-row: 3/5;
     position: relative;
 }
-.item4{
+
+.item4 {
     position: relative;
 }
 
 .item1 > img {
-    margin-left: 2em;
-    width: 1029px;
-    height: 329px;
+    margin-left: 0.2em;
+    width: 64.5vw;
+    height: 44vh;
+    filter: brightness(80%);
 }
 
 .item2 > img {
-    width: 505px;
-    height: 581px;
+    width: 31vw;
+    height: 79vh;
+    filter: brightness(80%);
 }
 
 .item31 > img {
-    width: 330px;
-    height: 520px;
+    width: 20vw;
+    height: 67vh;
+    filter: brightness(80%);
 }
 
 .item32 > img {
-    width: 330px;
-    height: 520px;
+    width: 20vw;
+    height: 67vh;
+    filter: brightness(80%);
 }
 
 .item4 > img {
-    width: 386px;
-    height: 256px;
+    width: 24vw;
+    height: 35vh;
+    filter: brightness(80%);
 }
 
 .item5 > img {
 
-    width: 957px;
-    height: 256px;
+    width: 56vw;
+    height: 31vh;
+    filter: brightness(80%);
 }
 
 .item1 > h3 {
@@ -229,6 +235,7 @@
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
+
 .item2 > h3 {
     position: absolute;
     left: 1vw;
@@ -237,6 +244,7 @@
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
+
 .item4 > h3 {
     position: absolute;
     left: 14vw;
@@ -245,14 +253,16 @@
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
+
 .item5 > h3 {
     position: absolute;
-    left: 50vw;
-    top: 27vh;
+    left: 48vw;
+    top: 24vh;
     font-size: 30px;
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
+
 .item31 > h3 {
     position: absolute;
     left: 12vw;
@@ -261,11 +271,19 @@
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
-.item32> h3 {
+
+.item32 > h3 {
     position: absolute;
     left: 32vw;
     top: 60vh;
     font-size: 30px;
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
+}
+
+
+
+.item-category a:hover {
+   text-shadow: 5px 5px 2px 1px dimgray;
+    border-bottom: 1px black solid;
 }
