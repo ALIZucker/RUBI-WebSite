@@ -302,6 +302,10 @@
     border-bottom: 1px black solid;
 }
 
+#mobile-footer-box {
+    display: none;
+}
+
 #footer-box {
     background-color: white;
 }
@@ -407,4 +411,7 @@
     font-size: 1.2vw;
     padding: 2vh 4vw;
     margin-left: 4vw;
+}
+#footer-mobile-ditail{
+    display: none;
 }

@@ -178,7 +178,6 @@
 
 #zivar-box-left > p {
     color: dimgrey;
-
     margin-top: 3vh;
     padding: 0 8vw;
     font-size: 1.3vw;
@@ -224,5 +223,8 @@
     filter: brightness(95%)
 }
 #browser-me{
+    display: none;
+}
+.moshahede-box2{
     display: none;
 }
