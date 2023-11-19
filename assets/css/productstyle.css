@@ -82,6 +82,23 @@
     overflow: scroll;
     margin-top: 20px;
 }
+.post-box1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-top: 20px;
+}
+
+.post-box1 article {
+    padding: 4px;
+    direction: rtl;
+}
+
+.post-box1 article h3, p {
+    direction: rtl;
+    margin-right: 8px;
+}
 
 .post-image {
     width: 334px;
@@ -114,7 +131,10 @@
     margin-top: 10vh;
     margin-left: 3vw;
 }
-
+#rubi-menu-box li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
 #rubi-menu-box {
     display: flex;
     justify-content: space-between;
@@ -158,7 +178,7 @@
 
 #zivar-box-left > p {
     color: dimgrey;
-    font-size: 1vw;
+
     margin-top: 3vh;
     padding: 0 8vw;
     font-size: 1.3vw;
@@ -202,4 +222,7 @@
     width: 334px;
     height: 269px;
     filter: brightness(95%)
+}
+#browser-me{
+    display: none;
 }
