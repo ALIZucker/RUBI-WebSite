@@ -21,7 +21,6 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-
     background-color: #272727;
     color: white;
 }
@@ -39,6 +38,21 @@
     width: 50%;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+#back-image2 {
+    display: none;
+    width: 58px;
+    height: 58px;
+    border: 2px white solid;
+    border-radius: 50%;
+    margin-left: 1.1em;
+}
+
+#back-image2 img {
+    width: 20px;
+    height: 20px;
+    padding: 17px
 }
 
 #back-image {
@@ -230,61 +244,167 @@
 
 .item1 > h3 {
     position: absolute;
-    left: 56vw;
+    left: 54vw;
     top: 36vh;
-    font-size: 30px;
+    font-size: 2.2vw;
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
 
 .item2 > h3 {
     position: absolute;
-    left: 1vw;
+    left: 2vw;
     top: 70vh;
-    font-size: 30px;
+    font-size: 2.2vw;
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
 
 .item4 > h3 {
     position: absolute;
-    left: 14vw;
-    top: 27vh;
-    font-size: 30px;
+    left: 12vw;
+    top: 28vh;
+    font-size: 2.2vw;
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
 
 .item5 > h3 {
     position: absolute;
-    left: 48vw;
+    left: 45vw;
     top: 24vh;
-    font-size: 30px;
+    font-size: 2.2vw;
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
 
 .item31 > h3 {
     position: absolute;
-    left: 12vw;
+    left: 10vw;
     top: 60vh;
-    font-size: 30px;
+    font-size: 2.2vw;
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
 
 .item32 > h3 {
     position: absolute;
-    left: 32vw;
+    left: 29vw;
     top: 60vh;
-    font-size: 30px;
+    font-size: 2.2vw;
     color: #eae9e9;
     text-shadow: 2px 2px 2px black
 }
 
 
-
 .item-category a:hover {
-   text-shadow: 5px 5px 2px 1px dimgray;
+    text-shadow: 5px 5px 2px 1px dimgray;
     border-bottom: 1px black solid;
+}
+
+#footer-box {
+    background-color: white;
+}
+
+.footer-box-property {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+
+.footer-box-property article {
+    width: 15vw;
+    height: 10vh;
+    margin: 4vh;
+}
+
+.footer-box-property article a {
+    width: 58px;
+    height: 58px;
+    background-color: #272727;
+    float: right;
+    text-align: center;
+}
+
+.footer-box-property article a > img {
+    width: 22px;
+    height: 22px;
+    margin-top: 2vh;
+}
+
+.footer-box-property-text {
+    margin-right: 70px;
+    direction: rtl;
+}
+
+.footer-box-property-text h4 {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.footer-box-property-text p {
+    font-weight: bold;
+    color: darkorange;
+
+    font-size: 1.5vw;
+}
+
+.line-footer {
+    display: inline-block;
+    height: 0.3vh;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 5vh;
+}
+
+#footer-detail {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+#footer-detail-left {
+    margin-top: 1vh;
+}
+
+#footer-detail-left img {
+    width: 1vw;
+    height: 1.7vh;
+}
+
+#footer-detail-left span {
+    margin-right: 1vw;
+    font-size: 1.2vw;
+    color: dimgrey;
+}
+
+.footer-h4-detail {
+    font-size: 1.5vw;
+    font-weight: bold;
+    direction: rtl
+}
+
+.footer-p-detail {
+    font-size: 1.2vw;
+    color: dimgrey;
+}
+
+#footer-end {
+    margin-top: 40px;
+    height: 50px;
+}
+
+#footer-end p {
+    float: right;
+    color: dimgrey;
+    font-size: 1.3vw;
+    margin-right: 8vw;
+}
+
+#footer-end a {
+    border: 1px black solid;
+    color: dimgrey;
+    font-size: 1.2vw;
+    padding: 2vh 4vw;
+    margin-left: 4vw;
 }
