@@ -25,12 +25,11 @@
     color: white;
 }
 
-#sign-in > img {
+#profil-box > img {
     width: 58px;
     height: 58px;
     border-radius: 50%;
     margin-left: 2em;
-    cursor: pointer;
 }
 
 

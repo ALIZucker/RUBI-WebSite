@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#lego-container {
+    text-align: center;
+    background-color: #272727;
+
+}
+
+#lego-container > img {
+    width: 9vw;
+    height: 7vh;
+    padding: 2vh 0;
+}
+
+.head-product-box {
+    background-color: #272727;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#three-pic-prod {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: lightseagreen;
+
+}
+
+#main-product-pic {
+    width: 35vw;
+    height: 65vh;
+    margin-left: 9vw;
+
+}
+
+#top-pic-prod > img {
+    width: 15vw;
+    height: 40vh;
+    margin: 1vh 1vw;
+}
+
+.right-box-product {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#off-prod-box {
+    display: inline-block;
+    margin: 2vh 2vw;
+}
+
+#off-prod-box > img {
+    width: 3vw;
+    height: 4vh;
+
+}
+
+#off-prod-box > span {
+    font-size: 1.7vw;
+}
+
+.right-box-product h1 {
+    margin-left: 4vw;
+    margin-top: 4vh;
+}
+
+#jens-prod {
+    background-color: #a86922;
+
+}
+#jens-prod p{
+    direction: rtl;
+}
+
