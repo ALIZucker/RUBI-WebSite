@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #272727;
+}
+
+#login-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: 80vh;
+    background-color: #eae9e9;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 4px lightsteelblue;
+}
+
+.left-box-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 5vh;
+}
+
+.left-box-menu > img {
+    width: 10vw;
+    height: 8vh;
+
+
+}
+
+.left-box-menu > strong {
+    font-size: 1.8vw;
+    margin-top: 2vh;
+    padding-top: 5vh;
+}
+
+.bot-box {
+    margin-top: 5vh;
+    height: 9vh;
+}
+
+.google-bot {
+    border: 1px black solid;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: black;
+    padding: 0.7vw 4vh;
+
+}
+
+.google-bot:hover {
+    background-color: midnightblue;
+    color: white;
+    transition: background-color 1s;
+    transition-timing-function: linear;
+}
+
+.linkdin-bot {
+    border: 1px black solid;
+    border-radius: 10px;
+    font-size: 1vw;
+    color: black;
+    padding: 0.7vw 4vh;
+    transition: background-color 1s;
+    transition-timing-function: linear;
+
+}
+
+.linkdin-bot:hover {
+    background-color: midnightblue;
+    color: white;
+
+}
+
+.feature-input-box {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.feature-input-box label {
+    margin-top: 2vh;
+    font-size: 1.2vw;
+}
+
+.feature-input-box input {
+    margin-top: 0.5vh;
+    font-size: 1.1vw;
+    padding: 2px 2px;
+}
+
+.remember-box {
+    margin-top: 2vh;
+    direction: rtl;
+}
+
+.remember-box label {
+    font-size: 1.2vw;
+}
+
+.remember-box a {
+    display: inline-block;
+    margin: 0 1.8vw;
+    font-size: 1vw;
+    color: brown;
+}
+
+.bot-sabt {
+    display: inline-block;
+    margin: 2vw;
+    background-color: #e88f22;
+    padding: 1vh 4vw;
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #eae9e9;
+    text-decoration: none;
+    transition: background-color 0.1s;
+    transition-timing-function: ease-out;
+    box-shadow: 0 0 4px 2px dimgray;
+}
+
+.bot-sabt:active {
+    background-color: #a86922;
+
+}
+
+#right-box-menu {
+    width: 50%;
+
+}
+#mobile-box-items{
+    display: none;
+}
+#right-box-menu img {
+    width: 32vw;
+    height: 76vh;
+    padding: 0.6vw;
+    background-size: cover;
+}

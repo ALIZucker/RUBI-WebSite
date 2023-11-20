@@ -9,7 +9,10 @@
     #profil-box > img {
         display: none;
     }
+    #sign-in{
 
+        display: none;
+    }
     #nav-container {
         height: 20px;
         padding-top: 2vh;
@@ -53,7 +56,7 @@
 
     #ghab-main {
         position: absolute;
-        height: 49vh;
+        height: 52vh;
         width: 80vw;
         margin-left: 9vw;
         margin-top: 9vh;
@@ -65,7 +68,7 @@
         z-index: -2;
         background-color: #272727;
         width: 100%;
-        height: 110vh;
+        height: 120vh;
     }
 
     #title-main {
