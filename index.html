@@ -17,23 +17,47 @@
 
 </head>
 
-<body style="background-color: #eae9e9">
+<body>
 <!-- الگوی سایت ابتدای سایت-->
 <div id="lego-container">
+    <section id="right-mobile-icons">
+        <img src="assets/img/search-.png">
+        <img src="assets/img/bascket.png">
+    </section>
     <img src="assets/img/rubiLego-removebg-preview.png" class="logo-web">
+    <section id="humborger-bot-left" onclick="humberger()">
+        <img src="assets/img/icons8-hamburger-50.png">
+    </section>
 </div>
 
+<div id="humbger-menu-items">
+    <img src="assets/img/humber-menu1-removebg-preview.png"><br/>
+    <img src="assets/img/humber-menu-line.png">
+    <section>
+        <div class="item-nav">
+            <ul>
+                <li>دستبند</li>
+                <li>انگشتر</li>
+                <li>گوشواره</li>
+                <li>گردنبند</li>
+                <li>اکسسوری</li>
+                <li>سرویس</li>
+            </ul>
+        </div>
+    </section>
+    <button onclick="humberback()☻">برگشت</button>
+</div>
 <!-- منو بار سایت شامل انتخاب بخش ها و سرچ سایت-->
 <div id="nav-container">
     <div id="profil-box">
-       <a id="sign-in" href="login.html"> <img src="assets/img/avatar.png"></a>
+        <a id="sign-in" href="login.html"> <img src="assets/img/avatar.png"></a>
         <a id="back-image">
             <img src="assets/img/bascket.png"></a>
         <input type="search" id="input-search" placeholder="دنبال چی میگردی ...">
         <a id="back-image2">
             <img src="assets/img/bascket.png"></a>
     </div>
-    <div id="item-nav">
+    <div class="item-nav">
         <ul>
             <li>دستبند</li>
             <li>انگشتر</li>
@@ -86,7 +110,7 @@
 
 <div class="post-box">
     <article>
-       <a href="productrubi.html"><img src="assets/img/pic1.png" class="post-image"></a>
+        <a href="productrubi.html"><img src="assets/img/pic1.png" class="post-image"></a>
         <img src="assets/img/verline.png" class="post-line">
         <h3>گردنبند نگین مروارید</h3>
         <p>2.600.000</p>
@@ -412,41 +436,8 @@
     </div>
 </footer>
 
-<script>
-    let items = document.getElementsByClassName('item-category');
+<script src="assets/js/index.js">
 
-    function selection(value) {
-        items[0].style.fontWeight = 400;
-        items[0].style.borderBottom = "none";
-        items[1].style.fontWeight = 400;
-        items[1].style.borderBottom = "none";
-        items[2].style.fontWeight = 400;
-        items[2].style.borderBottom = "none";
-        items[3].style.fontWeight = 400;
-        items[3].style.borderBottom = "none";
-        items[4].style.fontWeight = 400;
-        items[4].style.borderBottom = "none";
-        items[5].style.fontWeight = 400;
-        items[5].style.borderBottom = "none";
-
-        value == 0 ? items[0].style.fontWeight = 800 : console.log("ok")
-        value == 0 ? items[0].style.borderBottom = "3px solid black" : console.log("ok")
-
-        value == 1 ? items[1].style.fontWeight = 800 : console.log("ok")
-        value == 1 ? items[1].style.borderBottom = "3px solid black" : console.log("ok")
-
-        value == 2 ? items[2].style.fontWeight = 800 : console.log("ok")
-        value == 2 ? items[2].style.borderBottom = "3px solid black" : console.log("ok")
-
-        value == 3 ? items[3].style.fontWeight = 800 : console.log("ok")
-        value == 3 ? items[3].style.borderBottom = "3px solid black" : console.log("ok")
-
-        value == 4 ? items[4].style.fontWeight = 800 : console.log("ok")
-        value == 4 ? items[4].style.borderBottom = "3px solid black" : console.log("ok")
-
-        value == 5 ? items[5].style.fontWeight = 800 : console.log("ok")
-        value == 5 ? items[5].style.borderBottom = "3px solid black" : console.log("ok")
-    }
 </script>
 
 </body>

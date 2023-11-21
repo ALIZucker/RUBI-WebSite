@@ -18,65 +18,252 @@
 .head-product-box {
     background-color: #272727;
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 
 }
 
 #three-pic-prod {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    background-color: lightseagreen;
+    width: 40%;
+
+    background-color: #f1f0f0;
 
 }
 
 #main-product-pic {
-    width: 35vw;
-    height: 65vh;
-    margin-left: 9vw;
+    width: 32.4vw;
+    height: 70vh;
+    margin: 0 4.1vw;
 
+    box-shadow: 1px 1px 4px 3px darkgray;
+
+}
+
+#top-pic-prod {
+    margin-left: 3vw;
 }
 
 #top-pic-prod > img {
-    width: 15vw;
-    height: 40vh;
+    width: 9vw;
+    height: 25vh;
+    border: 1px #272727 solid;
     margin: 1vh 1vw;
 }
 
+#top-pic-prod > img:hover {
+    box-shadow: 0 2px 6px 3px darkgoldenrod;
+}
+
 .right-box-product {
-    background-color: white;
+    background-color: #272727;
     width: 50%;
+    opacity: 900%;
     display: flex;
     flex-direction: column;
+    direction: rtl;
+    padding-right: 4vw;
 }
 
 #off-prod-box {
     display: inline-block;
     margin: 2vh 2vw;
+
 }
 
 #off-prod-box > img {
     width: 3vw;
-    height: 4vh;
+    height: 4.5vh;
 
 }
 
 #off-prod-box > span {
     font-size: 1.7vw;
+    color: red;
 }
 
 .right-box-product h1 {
-    margin-left: 4vw;
-    margin-top: 4vh;
+    margin-right: 4vw;
+    color: #f1f0f0;
+    margin-top: 6vh;
 }
 
-#jens-prod {
-    background-color: #a86922;
+.jens-prod {
+
+    padding-right: 2vw;
+    margin-top: 6vh;
+    color: #f1f0f0;
+    margin-top: 6vh;
+}
+
+.jens-prod p {
+    font-size: 1.5vw;
 
 }
-#jens-prod p{
+
+#a1 {
+    width: 2vw;
+    height: 1.2vw;
+    background-color: orangered;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+#a2 {
+    width: 2vw;
+    height: 1.2vw;
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+#a3 {
+    width: 2vw;
+    height: 1.2vw;
+    background-color: darkgray;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+
+.jens-prod > span {
+    margin-right: 2vw;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+.jens-prod select {
+    width: 6.5vw;
+    height: 3vh;
+    margin: 1vw 1vh;
+    font-size: 1.2vw;
+}
+
+.price-part {
+    padding-right: 2vw;
+    margin-top: 5vh;
+    font-size: 1.5vw;
+}
+
+.price-part :first-child {
+    text-decoration: line-through;
+
+    color: brown;
+    margin-left: 1.2vw;
+}
+
+.line-footer {
+    display: inline-block;
+    height: 0.3vh;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 5vh;
+}
+
+tr, td {
+    border-bottom: 1px #dcdbdb solid;
+    padding: 1vh 1vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+#box-icons {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    background-color: #f1f0f0;
+}
+
+#box-icons b {
+    font-size: 1.8vw;
+    margin: 0 1vw;
+}
+
+.other-icons {
+    width: 2.1vw;
+    height: 4vh;
+    margin: 2vh 1vw;
+}
+
+#star-score {
+    width: 2.1vw;
+    height: 4vh;
+    margin: 0 1vw;
+    margin-top: 2vh;
+}
+#sell-product-bot:hover{
+    box-shadow: 1px 1px 5px 2px gray;
+
+}
+#sell-product-bot {
+    display: inline-block;
+    margin: 10vh 5vw;
+    font-size: 1.3vw;
+    text-align: center;
+    background-color: #EB9452;
+    padding: 1vh 1vw;
+    box-shadow: 1px 1px 3px 1px gray;
+    color: black;
+}
+
+.box-style-product {
+    width: 93%;
+    margin: 1.1vh 1vw;
+    box-shadow: 0 2px 5px 2px darkslategrey;
+    border-radius: 20px;
+    padding: 0 2vw;
+}
+
+.box-style-product > p {
     direction: rtl;
+    padding: 1vh 1vw;
+    line-height: normal;
+    text-align: justify;
+    text-justify: inter-cluster;
+    font-size: 1.5vw;
 }
 
+.box-style-product2 {
+    direction: rtl;
+    width: 93%;
+    margin: 1.1vh 1vw;
+    box-shadow: 0 2px 5px 2px darkslategrey;
+    border-radius: 20px;
+    padding: 3vh 2vw;
+}
+
+table {
+    width: 60%;
+    text-align: center;
+}
+
+.box-style-product2 > p {
+    font-size: 1.5vw;
+    margin: 1vh 0
+}
+
+.box-style-product2 > textarea {
+    padding: 1vh 1vw;
+    font-size: 1vw;
+    border-radius: 16px
+}
+
+.box-style-product2 > button:hover {
+    background-color: #EB9452;
+    color: #f1f0f0;
+}
+.box-style-product2 > button {
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.2vw;
+    margin: 4vh 10vw;
+    background-color: transparent;
+    border: 2px #EB9452 solid;
+    color: #e88f22;
+    border-radius: 16px;
+}

@@ -3,19 +3,110 @@
     .logo-web {
         width: 21vw;
         height: 4vh;
+        margin-top: 0.5vh;
+    }
+
+    #lego-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
     }
+
+    #right-mobile-icons {
+        display: inline-block;
+        margin-left: 6vw;
+
+    }
+
+    #humborger-bot-left {
+        display: inline-block;
+        margin-right: 6vw;
+    }
+
+    #right-mobile-icons > img {
+        width: 5.5vw;
+        height: 5.5vh;
+        padding: 0.5vh 0.5vw;
+        border-radius: 50%;
+    }
+
+    .item-nav {
+        width: 80%;
+
+
+    }
+
+    .item-nav ul li {
+        padding: 1em 0;
+        color: #dcdbdb;
+    }
+
+    .item-nav ul {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        font-size: 3.5vw;
+        font-weight: 350;
+        cursor: pointer;
+    }
+
+    #humbger-menu-items {
+        display: none;
+        /*
+        display: inline-block;
+        background-color: #272727;
+        width: 100%;
+        text-align: center;*/
+
+
+    }
+
+    #humbger-menu-items > button {
+
+        width: 10vw;
+        height: 5vh;
+        font-size: 1.2vw;
+        margin: 4vh 10vw;
+        background-color: transparent;
+        border: 2px #EB9452 solid;
+        color: #e88f22;
+        border-radius: 16px;
+
+
+    }
+
+    #humbger-menu-items > img:first-child {
+        width: 20vw;
+        height: 10vh;
+
+
+    }
+
+    #humborger-bot-left > img {
+        width: 5.5vw;
+        height: 5.5vh;
+
+        padding: 0.5vh 0.5vw;
+        border-radius: 50%;
+    }
+
 
     #profil-box > img {
         display: none;
     }
-    #sign-in{
+
+    #sign-in {
 
         display: none;
     }
+
     #nav-container {
-        height: 20px;
-        padding-top: 2vh;
+        display: none;
+
     }
 
     #back-image {
@@ -47,7 +138,7 @@
 
     #main-img {
         position: absolute;
-        height: 49vh;
+        height: 68vh;
         width: 80vw;
         margin-left: 13vw;
         margin-top: 5vh;
@@ -56,7 +147,7 @@
 
     #ghab-main {
         position: absolute;
-        height: 52vh;
+        height: 72vh;
         width: 80vw;
         margin-left: 9vw;
         margin-top: 9vh;
@@ -68,12 +159,12 @@
         z-index: -2;
         background-color: #272727;
         width: 100%;
-        height: 120vh;
+        height: 150vh;
     }
 
     #title-main {
         color: white;
-        padding-top: 65vh;
+        padding-top: 87vh;
         padding-right: 12vw;
         font-weight: bold;
         font-size: 8vw;
@@ -118,7 +209,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 130vh;
+        margin-top: 170vh;
     }
 
     .part-porfrosh h2 {
@@ -459,13 +550,16 @@
         height: 2vh;
         margin-left: 1vw;
     }
+
     #footer-mobile-ditail section span {
         font-size: 3vw;
         margin-left: 1vw;
     }
+
     #footer-end a {
         display: none;
     }
+
     #footer-end {
         text-align: center;
         display: inline-block;
@@ -473,9 +567,10 @@
         height: 30px;
 
     }
-    #footer-end p{
+
+    #footer-end p {
         font-size: 3.5vw;
-        margin-left:17.5vw;
+        margin-left: 17.5vw;
         direction: rtl;
     }
 }

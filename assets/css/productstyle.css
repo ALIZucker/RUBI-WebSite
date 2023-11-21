@@ -79,8 +79,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    overflow: scroll;
+    overflow-x: scroll;
     margin-top: 20px;
+}
+.post-box::-webkit-scrollbar{
+    display: none;
 }
 .post-box1{
     display: flex;
@@ -88,6 +91,9 @@
     flex-wrap: nowrap;
     overflow: scroll;
     margin-top: 20px;
+}
+.post-box1::-webkit-scrollbar{
+    display: none;
 }
 
 .post-box1 article {

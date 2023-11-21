@@ -9,7 +9,8 @@
     #mobile-box-items img {
         width: 100vw;
         height: 100vh;
-        filter: blur(5px);
+        filter: blur(6px);
+        filter: brightness(40%);
     }
 
     .left-box-menu {
@@ -29,6 +30,7 @@
         font-size: 3.2vw;
         margin-top: 2vh;
         padding-top: 2vh;
+        color: #eae9e9;
     }
 
     #login-box {
@@ -45,7 +47,7 @@
         border: 1px black solid;
         border-radius: 10px;
         font-size: 4vw;
-        color: black;
+        color: white;
         padding: 0.7vw 6vh;
 
     }
@@ -61,7 +63,7 @@
         border: 1px black solid;
         border-radius: 10px;
         font-size: 4vw;
-        color: black;
+        color: white;
         padding: 0.7vw 6vh;
         margin-right: 2vw;
         transition: background-color 1s;
@@ -84,6 +86,7 @@
     .feature-input-box label {
         margin-top: 2vh;
         font-size: 3.2vw;
+        color: #eae9e9;
 
     }
 
@@ -93,12 +96,14 @@
         padding: 2px 2px;
         width: 35vw;
         border: none;
+        color: #eae9e9;
         border-bottom: 1px midnightblue solid;
         background: transparent;
     }
     .remember-box {
         margin-top: 5vh;
         direction: ltr;
+        color: #eae9e9;
 
     }
 
@@ -110,7 +115,7 @@
         display: inline-block;
         margin: 0 5.8vw;
         font-size: 4vw;
-        color: brown;
+        color: white;
     }
 
 

@@ -6,6 +6,20 @@
 #lego-container {
     text-align: center;
     background-color: #272727;
+
+}
+#right-mobile-icons{
+    display: none;
+}
+#humborger-bot-left{
+    display: none;
+}
+#humbger-menu-items{
+    display: none;
+}
+body {
+    background-color: #eae9e9;
+    overflow-x: hidden;
 }
 
 .logo-web {
@@ -70,23 +84,32 @@
 }
 
 #input-search {
-    width: 17vw;
-    height: 58px;
+    width: 7vw;
+    height: 7vh;
     background-color: #272727;
     color: white;
     direction: rtl;
     padding: 0px 10px;
     font-size: 16px;
     margin-left: 10%;
+    transition: width 0.7s;
+    transition-timing-function: linear;
+
+
 }
 
-#item-nav {
+#input-search:focus {
+    width: 19vw;
+
+}
+
+.item-nav {
     width: 50%;
     margin-left: 10%;
 
 }
 
-#item-nav ul {
+.item-nav ul {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -412,6 +435,7 @@
     padding: 2vh 4vw;
     margin-left: 4vw;
 }
-#footer-mobile-ditail{
+
+#footer-mobile-ditail {
     display: none;
 }
