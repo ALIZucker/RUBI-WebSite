@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="assets/css/productpagestyle.css">
     <link rel="stylesheet" href="assets/css/productstyle.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="icon" href="assets/img/rubiLego.PNG">
 </head>
 <body>
 <!-- الگوی سایت ابتدای سایت-->
 <div id="lego-container">
     <img src="assets/img/rubiLego-removebg-preview.png" class="logo-web">
 </div>
+<!--بخش نمایش محصول که دارای سه بخش عکس و توضیحات و ایکون می باشد -->
 <div class="head-product-box">
     <div id="box-icons">
 
@@ -28,12 +31,12 @@
     </div>
     <div id="three-pic-prod">
         <section id="top-pic-prod">
-            <img src="assets/img/pro1.jpg">
-            <img src="assets/img/pic1.png">
-            <img src="assets/img/pro3.jpg">
+            <img alt="گردنبند مروارید" src="assets/img/pro1.jpg">
+            <img alt="گردنبند مروارید" src="assets/img/pic1.png">
+            <img alt="گردنبند مروارید" src="assets/img/pro3.jpg">
         </section>
         <section>
-            <img src="assets/img/pro2.jpg" id="main-product-pic">
+            <img alt="  سایت روبی گردنبند مروارید" title="گردنبند مروارید | سایت روبی " src="assets/img/pro2.jpg" id="main-product-pic">
         </section>
     </div>
 
@@ -65,19 +68,19 @@
             <span style="color: #f1f0f0;">7.500.000</span>
 
         </section>
-        <a id="sell-product-bot">سبد خرید</a>
+        <a id="sell-product-bot" onclick="alert('با موفقیت به سبد خرید اضافه شد ')">سبد خرید</a>
 
     </div>
 
 </div>
-
+<!-- بخش پیشنهاد های روبی برای کاربر-->
 <div class="part2-porfrosh">
     <img src="assets/img/line.png">
     <h2>پیشنهادهای روبی</h2>
     <img src="assets/img/line.png" s>
 </div>
 
-
+<!-- پست پیشنهاد ها در این قسمت قرارا میگیره-->
 <div class="box-style-product">
 
     <div class="post-box">
@@ -120,13 +123,17 @@
 
     </div>
 </div>
+
 <div class="part2-porfrosh">
     <img src="assets/img/line.png">
     <h2>معرفی محصول </h2>
     <img src="assets/img/line.png" s>
 </div>
+
+<!--توضیحات در مورد محصول قراره در این قسمت قرار بگیره-->
+
 <div class="box-style-product">
-    <p >
+    <p>
         گردنبند نگین مروارید یک جواهر زیبا و لوکس است که به عنوان زیورآلات گردنبند استفاده می‌شود. مرواریدها از ماده
         طبیعی با نام مروارید به دست می‌آیند که از داخل صدف صدف‌ها به دست می‌آید. مرواریدها به عنوان یکی از قدیمی‌ترین و
         ارزشمندترین سنگ‌های قیمتی شناخته می‌شوند و مورد توجه قرار گرفته‌اند.
@@ -145,8 +152,10 @@
     <h2>مشخصات محصول </h2>
     <img src="assets/img/line.png" s>
 </div>
+<!--مشخصات محصولات قراره در این قسمت قرار بگیرد-->
+
 <div class="box-style-product2">
-    <table >
+    <table>
         <tr>
             <td>کد</td>
             <td>GRH0400</td>
@@ -182,11 +191,13 @@
     <h2>ثبت دیدگاه </h2>
     <img src="assets/img/line.png" s>
 </div>
+
+<!--در این بخش نظر کاربر قرار میگرد-->
 <div class="box-style-product2">
     <p><b>شما هم می‌توانید در مورد این کالا نظر دهید. </b></p>
-    <textarea id="w3review" name="w3review" rows="4" cols="150" ></textarea>
+    <textarea id="w3review" name="w3review" rows="4" cols="150"></textarea>
     <br>
-    <button >ثبت نظر
+    <button onclick="alert('ممنون از نظر مفید تون')">ثبت نظر
     </button>
 </div>
 <footer id="footer-box">
