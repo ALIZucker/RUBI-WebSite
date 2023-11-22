@@ -97,6 +97,9 @@
     color: #f1f0f0;
     margin-top: 6vh;
 }
+.jens-prod a:hover{
+    box-shadow: 0 0px 2px 4px darkgoldenrod;
+}
 
 .jens-prod p {
     font-size: 1.5vw;
@@ -106,7 +109,7 @@
 #a1 {
     width: 2vw;
     height: 1.2vw;
-    background-color: orangered;
+    background-color: #a86922;
     display: inline-block;
     border-radius: 50%;
 
