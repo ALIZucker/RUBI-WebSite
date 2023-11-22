@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'Kalameh-black';
+    src: url('Kalameh-Black.eot');
+    src: url('Kalameh-Black.eot?#iefix') format('embedded-opentype'),
+    url('Kalameh-Black.woff2') format('woff2'),
+    url('Kalameh-Black.woff') format('woff'),
+    url('Kalameh-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalameh-Bold';
+    src: url('Kalameh-Bold.eot');
+    src: url('Kalameh-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Kalameh-Bold.woff2') format('woff2'),
+    url('Kalameh-Bold.woff') format('woff'),
+    url('Kalameh-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalameh-ExtraBold';
+    src: url('Kalameh-ExtraBold.eot');
+    src: url('Kalameh-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('Kalameh-ExtraBold.woff2') format('woff2'),
+    url('Kalameh-ExtraBold.woff') format('woff'),
+    url('Kalameh-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalameh-ExtraLight';
+    src: url('Kalameh-ExtraLight.eot');
+    src: url('Kalameh-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('Kalameh-ExtraLight.woff2') format('woff2'),
+    url('Kalameh-ExtraLight.woff') format('woff'),
+    url('Kalameh-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalameh-Light';
+    src: url('Kalameh-Light.eot');
+    src: url('Kalameh-Light.eot?#iefix') format('embedded-opentype'),
+    url('Kalameh-Light.woff2') format('woff2'),
+    url('Kalameh-Light.woff') format('woff'),
+    url('Kalameh-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalameh-Medium';
+    src: url('Kalameh-Medium.eot');
+    src: url('Kalameh-Medium.eot?#iefix') format('embedded-opentype'),
+    url('Kalameh-Medium.woff2') format('woff2'),
+    url('Kalameh-Medium.woff') format('woff'),
+    url('Kalameh-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalameh-Regular';
+    src: url('Kalameh-Regular.eot');
+    src: url('Kalameh-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Kalameh-Regular.woff2') format('woff2'),
+    url('Kalameh-Regular.woff') format('woff'),
+    url('Kalameh-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalameh-SemiBold';
+    src: url('Kalameh-SemiBold.eot');
+    src: url('Kalameh-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('Kalameh-SemiBold.woff2') format('woff2'),
+    url('Kalameh-SemiBold.woff') format('woff'),
+    url('Kalameh-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalameh-Thin';
+    src: url('Kalameh-Thin.eot');
+    src: url('Kalameh-Thin.eot?#iefix') format('embedded-opentype'),
+    url('Kalameh-Thin.woff2') format('woff2'),
+    url('Kalameh-Thin.woff') format('woff'),
+    url('Kalameh-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+.item-nav ul {
+    font-family: Kalameh-SemiBold;
+}
+
+#title-main {
+    font-family: Kalameh-ExtraBold;
+}
+#description-main {
+    font-family: Kalameh-Medium;
+}
+#bot-rubi {
+    font-family: Kalameh-Regular;
+}
+#bot-store {
+    font-family: Kalameh-Regular;
+}
+.part-porfrosh h2 {
+    font-family: Kalameh-Bold;
+}
+.text-showall {
+    font-family: Kalameh-Regular;
+}
+.post-box article h3, p {
+    font-family: Kalameh-Regular;
+}
+.item1 {  font-family: Kalameh-Bold;}
+.item2 {  font-family: Kalameh-Bold;}
+.item31 {  font-family: Kalameh-Bold;}
+.item32 {  font-family: Kalameh-Bold;}
+.item4 {  font-family: Kalameh-Bold;}
+.item5 {  font-family: Kalameh-Bold;}
+.part2-porfrosh h2 { font-family: Kalameh-Bold;}
+#rubi-menu-box {    font-family: Kalameh-SemiBold;}
+.post-box1 article h3, p { font-family: Kalameh-Regular;}
+.moshahede-box {  font-family: Kalameh-Regular;}
+#zivar-box-left > h3 {font-family: Kalameh-Bold;}
+#zivar-box-left > p {    font-family: Kalameh-Regular;}
+#zivar-box-left > a {font-family: Kalameh-SemiBold;}
+.part2-porfrosh { font-family: Kalameh-Bold;}
+.footer-box-property-text {font-family: Kalameh-SemiBold;}
+#footer-detail { font-family: Kalameh-SemiBold;}
+#footer-end a {font-family: Kalameh-SemiBold;}

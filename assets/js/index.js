@@ -1,5 +1,6 @@
 let items = document.getElementsByClassName('item-category');
 let humber = document.getElementById('humbger-menu-items')
+let headlego=document.getElementById('lego-container');
 let bool = false;
 
 function selection(value) {
@@ -43,11 +44,15 @@ function humberger() {
     humber.style.textAlign = 'center';
     humber.style.transition='width 4s';
     humber.style.transitionTimingFunction='linear';
-
+    headlego.style.display='none'
 
 }
 
 function humberback() {
 
     humber.style.display = 'none';
+    headlego.style.display='flex';
+    headlego.style.flexDirection='row';
+    headlego.style.justifyContent='space-between';
+
 }
