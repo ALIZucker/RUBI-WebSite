@@ -13,7 +13,27 @@
 <body>
 <!-- الگوی سایت ابتدای سایت-->
 <div id="lego-container">
-    <img src="assets/img/rubiLego-removebg-preview.png" class="logo-web">
+    <a href="index.html"> <img src="assets/img/rubiLego-removebg-preview.png" class="logo-web"></a>
+</div>
+<div id="nav-container">
+    <div id="profil-box">
+        <a id="sign-in" href="login.html"> <img src="assets/img/images.jpg"></a>
+        <a id="back-image">
+            <img src="assets/img/bascket-removebg-preview.png"></a>
+        <input type="search" id="input-search" placeholder="دنبال چی میگردی ...">
+        <a id="back-image2">
+            <img src="assets/img/bascket-removebg-preview.png"></a>
+    </div>
+    <div class="item-nav">
+        <ul>
+            <li>دستبند</li>
+            <li>انگشتر</li>
+            <li>گوشواره</li>
+            <li>گردنبند</li>
+            <li>اکسسوری</li>
+            <li>سرویس</li>
+        </ul>
+    </div>
 </div>
 <!--بخش نمایش محصول که دارای سه بخش عکس و توضیحات و ایکون می باشد -->
 <div class="head-product-box">
@@ -36,39 +56,55 @@
             <img alt="گردنبند مروارید" src="assets/img/pro3.jpg">
         </section>
         <section>
-            <img alt="  سایت روبی گردنبند مروارید" title="گردنبند مروارید | سایت روبی " src="assets/img/pro2.jpg" id="main-product-pic">
+            <img alt="  سایت روبی گردنبند مروارید" title="گردنبند مروارید | سایت روبی " src="assets/img/pro2.jpg"
+                 id="main-product-pic">
         </section>
     </div>
 
     <div class="right-box-product">
-        <section id="off-prod-box">
-            <img src="assets/img/icons8-hot-price-100.png">
-            <span> تخفیف ویژه</span>
-        </section>
         <h1>گردن بند نگین مروارید</h1>
-        <section class="jens-prod">
-            <p>جنس</p>
-            <span>برنجی</span>
-            <a id="a1"> </a>
-            <span>طلا</span>
-            <a id="a2"> </a>
-            <span> نقره</span>
-            <a id="a3"> </a>
+        <img id="line2-post" src="assets/img/line%20post2.png">
+        <section class="brand-post">
+            <span>برند:</span><strong>کاسیو</strong>
+            <span>دسته بندی:</span><strong>گوشواره</strong>
+            <span>شناسه:</span><strong>dk.1.12724.5</strong>
         </section>
-        <section class="jens-prod">
-            <p>سایز</p>
-            <select>
-                <option value="40cm">40cm</option>
-                <option value="30cm">30cm</option>
-                <option value="20cm">15cm</option>
-            </select>
+        <h3>توضیحات کوتاه</h3>
+        <p>گردنبند نگین مروارید یک جواهر زیبا و لوکس است که به عنوان زیورآلات گردنبند استفاده می‌شود. مرواریدها از ماده
+            طبیعی با نام مروارید به دست می‌آیند که از داخل صدف صدف‌ها به دست می‌آید.همــچنین برای مشــاهــده بـقیـه
+            جواهـــرات به بخش پیشنهاد های روبی مراجعه کنید. </p>
+        <section>
+            <table style="margin-top:3vh; ">
+                <tr>
+                    <td>رنگ طلا:<a id="colorproduct"></a></td>
+                    <td> اجرت :</td>
+                </tr>
+                <tr>
+                    <td>وزن طلا:<span style="padding: 0 1vw;">7 گرم</span></td>
+                    <td>وزن:<span style="padding: 0 1vw;">10</span></td>
+                </tr>
+                <tr>
+                    <td>سایز طلا:<select name="cars" id="size-product">
+                        <option value="volvo">57</option>
+                        <option value="saab">60</option>
+                        <option value="mercedes">70</option>
+                        <option value="audi">20</option>
+                    </select></td>
+                    <td>برند:<span style="padding: 0 1vw;">لوکس</span></td>
+                </tr>
+            </table>
         </section>
         <section class="price-part">
-            <span>10.500.000</span>
-            <span style="color: #f1f0f0;">7.500.000</span>
+            <section style="width:15vw;  direction: ltr;">
+                <p style="margin-left: 1vw;  font-size: 1.5vw; direction: ltr;">10.000.000</p>
+                <span style="margin-left: 1vw; font-size: 1.5vw; text-decoration-line: line-through;text-decoration-color: #272727;">15.000.000</span>
+                <img style="width: 2vw;height: 2.3vh; margin: 0 1vw" src="assets/img/off-removebg-preview.png">
 
+            </section>
+
+            <a id="sell-product-bot" onclick="alert('با موفقیت به سبد خرید اضافه شد ')">افزودن به سبد خرید</a>
         </section>
-        <a id="sell-product-bot" onclick="alert('با موفقیت به سبد خرید اضافه شد ')">سبد خرید</a>
+
 
     </div>
 
@@ -210,7 +246,7 @@
     <!-- معرفی ویژگی های سایت مخصوصا ضمانت ها -->
     <div class="footer-box-property">
         <article>
-            <a><img src="assets/img/footerpic1.png"></a>
+            <a><img src="assets/img/footerpic1-removebg-preview.png"></a>
             <section class="footer-box-property-text">
                 <h4>امکان</h4>
                 <p>خرید اقساطی</p>
@@ -218,7 +254,7 @@
 
         </article>
         <article>
-            <a><img src="assets/img/star.png"></a>
+            <a><img src="assets/img/star-removebg-preview.png"></a>
             <section class="footer-box-property-text">
                 <h4>ساخت</h4>
                 <p>سفارشی محصول</p>
@@ -226,7 +262,7 @@
 
         </article>
         <article>
-            <a><img src="assets/img/zmanat.png"></a>
+            <a><img src="assets/img/zmanat-removebg-preview.png"></a>
             <section class="footer-box-property-text">
                 <h4>ضمانت </h4>
                 <p>اصالت محصول</p>
@@ -234,7 +270,7 @@
 
         </article>
         <article>
-            <a><img src="assets/img/taviz.png"></a>
+            <a><img src="assets/img/taviz-removebg-preview.png"></a>
             <section class="footer-box-property-text">
                 <h4>امکان</h4>
                 <p>تعویض محصول</p>

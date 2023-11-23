@@ -9,7 +9,7 @@
 
 }
 
-#lego-container > img {
+#lego-container a > img {
     width: 9vw;
     height: 7vh;
     padding: 2vh 0;
@@ -26,29 +26,29 @@
 
 #three-pic-prod {
     display: flex;
-    flex-direction: column;
-    width: 40%;
-
+    flex-direction: column-reverse;
+    width: 44%;
+    height: auto;
+    padding: 0 1vw;
     background-color: #f1f0f0;
 
 }
 
 #main-product-pic {
-    width: 32.4vw;
+    width: 48vw;
     height: 70vh;
-    margin: 0 4.1vw;
-
+    object-fit: fill;
     box-shadow: 1px 1px 4px 3px darkgray;
 
 }
 
 #top-pic-prod {
-    margin-left: 3vw;
+    margin-left: 13vw;
 }
 
 #top-pic-prod > img {
-    width: 9vw;
-    height: 25vh;
+    width: 6.8vw;
+    height: 9.8vh;
     border: 1px #272727 solid;
     margin: 1vh 1vw;
 }
@@ -57,106 +57,61 @@
     box-shadow: 0 2px 6px 3px darkgoldenrod;
 }
 
+#line2-post {
+    width: 50vw;
+    margin-top: 2.5vh;
+}
+
+.brand-post {
+    display: inline-block;
+    direction: rtl;
+    margin-top: 2.5vh;
+}
+
+.brand-post > strong {
+    margin: 0 1.1vw;
+    font-size: 1vw;
+
+}
+
 .right-box-product {
-    background-color: #272727;
+    background-color: whitesmoke;
     width: 50%;
-    opacity: 900%;
     display: flex;
     flex-direction: column;
     direction: rtl;
     padding-right: 4vw;
 }
 
-#off-prod-box {
-    display: inline-block;
-    margin: 2vh 2vw;
-
-}
-
-#off-prod-box > img {
-    width: 3vw;
-    height: 4.5vh;
-
-}
-
-#off-prod-box > span {
-    font-size: 1.7vw;
-    color: red;
-}
 
 .right-box-product h1 {
     margin-right: 4vw;
-    color: #f1f0f0;
-    margin-top: 6vh;
+    color: #272727;
+    margin-top: 14vh;
 }
 
-.jens-prod {
-
-    padding-right: 2vw;
-    margin-top: 6vh;
-    color: #f1f0f0;
-    margin-top: 6vh;
-}
-.jens-prod a:hover{
-    box-shadow: 0 0px 2px 4px darkgoldenrod;
+.right-box-product > h3 {
+    margin-top: 3.5vh;
+    font-size: 1.3vw;
 }
 
-.jens-prod p {
-    font-size: 1.5vw;
-
+.right-box-product > p {
+    width: 30vw;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1vw;
 }
 
-#a1 {
-    width: 2vw;
-    height: 1.2vw;
-    background-color: #a86922;
-    display: inline-block;
-    border-radius: 50%;
-
-}
-
-#a2 {
-    width: 2vw;
-    height: 1.2vw;
-    background-color: yellow;
-    display: inline-block;
-    border-radius: 50%;
-
-}
-
-#a3 {
-    width: 2vw;
-    height: 1.2vw;
-    background-color: darkgray;
-    display: inline-block;
-    border-radius: 50%;
-
-}
-
-.jens-prod > span {
-    margin-right: 2vw;
-    font-size: 1.1vw;
-    font-weight: 600;
-}
-
-.jens-prod select {
-    width: 6.5vw;
-    height: 3vh;
-    margin: 1vw 1vh;
-    font-size: 1.2vw;
-}
 
 .price-part {
-    padding-right: 2vw;
-    margin-top: 5vh;
-    font-size: 1.5vw;
-}
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 8vh;
 
-.price-part :first-child {
-    text-decoration: line-through;
 
-    color: brown;
-    margin-left: 1.2vw;
+
 }
 
 .line-footer {
@@ -170,8 +125,25 @@
 tr, td {
     border-bottom: 1px #dcdbdb solid;
     padding: 1vh 1vw;
+
     font-size: 1.2vw;
     font-weight: 500;
+}
+
+#colorproduct {
+    margin-right: 1vw;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: yellow;
+    width: 2vw;
+    height: 2vh;
+}
+
+#size-product {
+    margin-right: 1vw;
+    height: 5vh;
+    width: 7vw;
+    font-size: 1.2vw;
 }
 
 #box-icons {
@@ -179,6 +151,7 @@ tr, td {
     display: flex;
     flex-direction: column;
     width: 5%;
+
     background-color: #f1f0f0;
 }
 
@@ -199,24 +172,27 @@ tr, td {
     margin: 0 1vw;
     margin-top: 2vh;
 }
-#sell-product-bot:hover{
+
+#sell-product-bot:hover {
     box-shadow: 1px 1px 5px 2px gray;
 
 }
+
 #sell-product-bot {
-    display: inline-block;
-    margin: 10vh 5vw;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     text-align: center;
     background-color: #EB9452;
-    padding: 1vh 1vw;
+    padding: 2vh 7vw;
     box-shadow: 1px 1px 3px 1px gray;
     color: black;
+    margin-left: 5.8vw;
+
 }
 
 .box-style-product {
     width: 93%;
     margin: 1.1vh 1vw;
+    background-color: white;
     box-shadow: 0 2px 5px 2px darkslategrey;
     border-radius: 20px;
     padding: 0 2vw;
@@ -235,6 +211,7 @@ tr, td {
     direction: rtl;
     width: 93%;
     margin: 1.1vh 1vw;
+    background-color: white;
     box-shadow: 0 2px 5px 2px darkslategrey;
     border-radius: 20px;
     padding: 3vh 2vw;
@@ -260,6 +237,7 @@ table {
     background-color: #EB9452;
     color: #f1f0f0;
 }
+
 .box-style-product2 > button {
     width: 10vw;
     height: 5vh;
