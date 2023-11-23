@@ -1,0 +1,138 @@
+@media screen and (max-width: 650px ) {
+
+    #lego-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    #right-mobile-icons {
+        display: inline-block;
+        margin-left: 6vw;
+
+    }
+
+    #right-mobile-icons > img {
+        width: 5.5vw;
+        height: 5.5vh;
+        padding: 0.5vh 0.5vw;
+        border-radius: 50%;
+    }
+
+    .logo-web {
+        width: 21vw;
+        height: 4vh;
+        margin-top: 0.5vh;
+    }
+
+    #humborger-bot-left {
+        display: inline-block;
+        margin-right: 6vw;
+    }
+
+    #humborger-bot-left > img {
+        width: 5.5vw;
+        height: 5.5vh;
+        padding: 0.5vh 0.5vw;
+        border-radius: 50%;
+    }
+
+    #humbger-menu-items {
+        display: none;
+        /*
+        display: inline-block;
+        background-color: #272727;
+        width: 100%;
+        text-align: center;*/
+    }
+
+    #humbger-menu-items > button {
+
+        width: 10vw;
+        height: 5vh;
+        font-size: 1.2vw;
+        margin: 4vh 10vw;
+        background-color: transparent;
+        border: 2px #EB9452 solid;
+        color: #e88f22;
+        border-radius: 16px;
+    }
+
+    .item-nav {
+        width: 80%;
+    }
+
+    .item-nav ul li {
+        padding: 1em 0;
+        color: #dcdbdb;
+    }
+
+    .item-nav ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        font-size: 3.5vw;
+        font-weight: 350;
+        cursor: pointer;
+    }
+
+    #humbger-menu-items > img:first-child {
+        width: 20vw;
+        height: 10vh;
+    }
+
+    #nav-container {
+        display: none;
+    }
+
+    .head-product-box {
+        display: none;
+    }
+
+    #mobile-box-prod {
+        margin-top: 13vh;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mobile-box-prod-img {
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+    }
+
+    #mobile-box-prod-img::-webkit-scrollbar {
+        display: none;
+    }
+
+    #mobile-box-prod-img > img {
+        width: 45vw;
+        margin: 0 0.5vw;
+        height: 50vh;
+
+
+    }
+
+    #mobile-box-prod > h1 {
+        direction: rtl;
+        font-size: 7vw;
+        margin: 2vh 1vw
+    }
+
+    .brand-post2 {
+        display: inline-block;
+        direction: rtl;
+        margin-top: 2.5vh;
+    }
+
+    .brand-post > strong {
+        display: inline-block;
+        direction: rtl;
+        margin-top: 2.5vh;
+    }
+}

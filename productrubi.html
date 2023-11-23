@@ -7,14 +7,42 @@
     <link rel="stylesheet" href="assets/css/productpagestyle.css">
     <link rel="stylesheet" href="assets/css/productstyle.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/productmobility.css">
     <link rel="stylesheet" href="assets/fonts/stylesheet.css">
     <link rel="icon" href="assets/img/rubiLego.PNG">
 </head>
 <body>
+<!--موبایل صفحه پست این بخش برای موبایل فعال میشود -->
 <!-- الگوی سایت ابتدای سایت-->
 <div id="lego-container">
-    <a href="index.html"> <img src="assets/img/rubiLego-removebg-preview.png" class="logo-web"></a>
+    <section id="right-mobile-icons">
+        <img src="assets/img/search--removebg-preview.png">
+        <img src="assets/img/bascket-removebg-preview.png">
+    </section>
+    <img src="assets/img/rubiLego-removebg-preview.png" alt="سایت جواهری روبی " title="لگوی سایت روبی" class="logo-web">
+    <section id="humborger-bot-left" onclick="humberger()">
+        <img src="assets/img/icons8-menu-50.png">
+    </section>
 </div>
+
+<div id="humbger-menu-items">
+    <img src="assets/img/humber-menu1-removebg-preview.png"><br/>
+    <img src="assets/img/humber-menu-line.png">
+    <section>
+        <div class="item-nav">
+            <ul>
+                <li>دستبند</li>
+                <li>انگشتر</li>
+                <li>گوشواره</li>
+                <li>گردنبند</li>
+                <li>اکسسوری</li>
+                <li>سرویس</li>
+            </ul>
+        </div>
+    </section>
+    <button onclick="humberback()">برگشت</button>
+</div>
+<!-- منو بار سایت شامل انتخاب بخش ها و سرچ سایت-->
 <div id="nav-container">
     <div id="profil-box">
         <a id="sign-in" href="login.html"> <img src="assets/img/images.jpg"></a>
@@ -35,6 +63,7 @@
         </ul>
     </div>
 </div>
+
 <!--بخش نمایش محصول که دارای سه بخش عکس و توضیحات و ایکون می باشد -->
 <div class="head-product-box">
     <div id="box-icons">
@@ -53,7 +82,7 @@
         <section id="top-pic-prod">
             <img alt="گردنبند مروارید" src="assets/img/pro1.jpg">
             <img alt="گردنبند مروارید" src="assets/img/pic1.png">
-            <img alt="گردنبند مروارید" src="assets/img/pro3.jpg">
+            <img alt="گردنبند مروارید" src="assets/img/morvarid.jpg">
         </section>
         <section>
             <img alt="  سایت روبی گردنبند مروارید" title="گردنبند مروارید | سایت روبی " src="assets/img/pro2.jpg"
@@ -109,6 +138,23 @@
     </div>
 
 </div>
+<!--این بخش فقط در موبایل نشان داده میشود-->
+<div id="mobile-box-prod">
+    <div id="mobile-box-prod-img">
+        <img alt="گردنبند مروارید" src="assets/img/pro1.jpg">
+        <img alt="گردنبند مروارید" src="assets/img/pic1.png">
+        <img alt="گردنبند مروارید" src="assets/img/morvarid.jpg">
+        <img alt="  سایت روبی گردنبند مروارید" title="گردنبند مروارید | سایت روبی " src="assets/img/pro2.jpg">
+    </div>
+    <h1>گردن بند نگین مروارید</h1>
+    <section class="brand-post2">
+        <span>برند:</span><strong>کاسیو</strong>
+        <span>دسته بندی:</span><strong>گوشواره</strong>
+        <span>شناسه:</span><strong>dk.1.12724.5</strong>
+    </section>
+</div>
+
+
 <!-- بخش پیشنهاد های روبی برای کاربر-->
 <div class="part2-porfrosh">
     <img src="assets/img/line.png">
@@ -327,5 +373,7 @@
         <a>بازگشت به بالا </a>
     </div>
 </footer>
+
+<script src="assets/js/index.js"></script>
 </body>
 </html>
