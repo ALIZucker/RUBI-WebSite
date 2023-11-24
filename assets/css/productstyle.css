@@ -48,6 +48,7 @@
     font-weight: 500;
     margin-left: 0.8vw;
     color: dimgrey;
+    cursor: pointer;
 }
 
 .direction-right-post {

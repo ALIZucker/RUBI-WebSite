@@ -98,6 +98,8 @@
         height: auto;
         display: flex;
         flex-direction: column;
+        background-color: whitesmoke;
+        align-items: end;
     }
 
     #mobile-box-prod-img {
@@ -124,15 +126,164 @@
         margin: 2vh 1vw
     }
 
-    .brand-post2 {
-        display: inline-block;
-        direction: rtl;
-        margin-top: 2.5vh;
-    }
 
     .brand-post > strong {
         display: inline-block;
         direction: rtl;
         margin-top: 2.5vh;
+    }
+
+    #mobile-table {
+        width: 100%;
+    }
+
+    #mobile-table tr td {
+        font-size: 2vw;
+        direction: rtl;
+    }
+
+    .size-product {
+        margin-right: 1vw;
+        height: 3vh;
+        width: 11vw;
+        font-size: 1.8vw;
+    }
+
+    .price-part {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        margin-top: 8vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2vh;
+
+    }
+
+    .sell-product-bot {
+        font-size: 1.9vw;
+        text-align: center;
+        background-color: #EB9452;
+        padding: 2.5vh 9vw;
+        box-shadow: 1px 1px 3px 1px gray;
+        color: black;
+
+
+    }
+    .box-style-product {
+        width: 100%;
+        margin: 0;
+        background-color: white;
+        box-shadow:none;
+        border-radius: 0;
+        padding: 0 2vw;
+    }
+    .box-style-product > p {
+        direction: rtl;
+        padding: 1vh 1vw;
+        line-height: normal;
+        text-align: justify;
+        text-justify: inter-cluster;
+        font-size: 2.5vw;
+    }
+    .box-style-product2 {
+        width: 96%;
+        margin:0;
+
+        background-color: white;
+        box-shadow:none;
+        border-radius: 0;
+        padding: 3vh 2vw;
+}
+    .box-style-product2  table tr td{
+        font-size: 2.5vw;
+        margin: 1vh 9vw;
+    }
+    .box-style-product2 > p {
+        font-size: 2.5vw;
+        margin: 1vh 3vw;
+    }
+    .box-style-product2 > textarea {
+        padding: 1vh 1vw;
+        font-size: 2.3vw;
+        border-radius: 16px;
+        width: 80%;
+        margin-right: 2vw;
+    }
+
+    .box-style-product2 > button:hover {
+        background-color: #EB9452;
+        color: #f1f0f0;
+    }
+
+    .box-style-product2 > button {
+        width: 18vw;
+        height: 5vh;
+        font-size: 2.2vw;
+        margin: 4vh 10vw;
+        background-color: transparent;
+        border: 2px #EB9452 solid;
+        color: #e88f22;
+        border-radius: 16px;
+    }
+    .footer-box-property {
+        display:none;
+    }
+    #mobile-footer-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 7vh;
+    }
+    #footer-detail {
+        display: none;
+    }
+    #footer-mobile-ditail {
+        display: none;
+    }
+    #footer-mobile-ditail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-mobile-ditail h4 {
+        margin-top: 1vh;
+        font-size: 3.3vw;
+        direction: rtl;
+    }
+
+    #footer-mobile-ditail p {
+        margin-top: 1vh;
+        font-size: 2.7vw;
+        color: dimgray;
+        direction: rtl;
+    }
+
+    #footer-mobile-ditail section {
+        margin-top: 4vh;
+
+    }
+
+    #footer-mobile-ditail section img {
+        width: 2vw;
+        height: 2vh;
+        margin-left: 1vw;
+    }
+
+    #footer-mobile-ditail section span {
+        font-size: 3vw;
+        margin-left: 1vw;
+    }
+    #footer-end a {
+        display: none;
+    }
+    #footer-end p {
+        font-size: 3.5vw;
+        margin-left: 17.5vw;
+        direction: rtl;
     }
 }

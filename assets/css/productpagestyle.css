@@ -130,7 +130,7 @@ tr, td {
     font-weight: 500;
 }
 
-#colorproduct {
+.colorproduct {
     margin-right: 1vw;
     border-radius: 50%;
     display: inline-block;
@@ -139,7 +139,7 @@ tr, td {
     height: 2vh;
 }
 
-#size-product {
+.size-product {
     margin-right: 1vw;
     height: 5vh;
     width: 7vw;
@@ -175,12 +175,12 @@ tr, td {
 #lego-container2{
     display: none;
 }
-#sell-product-bot:hover {
+.sell-product-bot:hover {
     box-shadow: 1px 1px 5px 2px gray;
 
 }
 
-#sell-product-bot {
+.sell-product-bot {
     font-size: 1.1vw;
     text-align: center;
     background-color: #EB9452;
