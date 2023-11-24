@@ -1,5 +1,6 @@
 @media screen and (max-width: 650px) {
     /* سربرگ سایت برای نمایش عناصر*/
+
     .logo-web {
         width: 21vw;
         height: 4vh;
@@ -249,7 +250,7 @@
     }
 
     .item1 > img {
-        width: 100%;
+        width: 98%;
         height: 35vh;
         filter: brightness(80%);
     }

@@ -111,7 +111,31 @@
     margin-top: 8vh;
 
 
+}
 
+.price-part section {
+    width: 15vw;
+    direction: ltr;
+
+}
+
+.price-part section > p {
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    direction: ltr;
+}
+
+.price-part section > span {
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    text-decoration-line: line-through;
+    text-decoration-color: #272727;
+}
+
+.price-part section img {
+    width: 2vw;
+    height: 3vh;
+    margin: 0 1vw;
 }
 
 .line-footer {
@@ -172,9 +196,11 @@ tr, td {
     margin: 0 1vw;
     margin-top: 14vh;
 }
-#lego-container2{
+
+#lego-container2 {
     display: none;
 }
+
 .sell-product-bot:hover {
     box-shadow: 1px 1px 5px 2px gray;
 
@@ -250,7 +276,8 @@ table {
     color: #e88f22;
     border-radius: 16px;
 }
-#mobile-box-prod{
+
+#mobile-box-prod {
     display: none;
 }
 

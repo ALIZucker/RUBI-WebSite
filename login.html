@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="assets/css/loginstyle.css">
     <link rel="stylesheet" href="assets/fonts/stylesheet.css">
     <link rel="stylesheet" href="assets/css/loginmobilestyle.css">
@@ -16,14 +17,14 @@
         <img alt="لگو سایت روبی" src="assets/img/rubiLego-removebg-preview.png">
         <strong>لطفا در روبی اکانت بسازید</strong>
         <div class="bot-box">
-            <a class="google-bot">گوگل</a>
-            <a class="linkdin-bot">لینکدین</a>
+            <a onclick="alert('برای ساخت اکانت وارد اطلاعات گوگل میشود')" class="google-bot">گوگل</a>
+            <a onclick="alert('برای ساخت اکانت وارد اطلاعات لینکدین میشود')" class="linkdin-bot">لینکدین</a>
         </div>
         <div class="feature-input-box">
             <label for="email-me">ایمیل</label>
-            <input type="email" name="email-me" id="email-me" required>
+            <input type="email" name="email-me" id="email-me"  autocomplete="on" autofocus  required>
             <label for="pass-me">گذرواژه</label>
-            <input type="password" name="pass-me" required id="pass-me">
+            <input type="password" maxlength="8" name="pass-me" required id="pass-me">
         </div>
 
         <div class="remember-box">
@@ -31,7 +32,7 @@
             <input type="checkbox" name="checkbox" value="ok" id="click2">
             <a href="#">فراموش کردن</a>
         </div>
-        <a href="index.html" class="bot-sabt">ثبت</a>
+        <a onclick="checkemail(document.getElementById('email-me').value)" href="index.html" class="bot-sabt">ثبت</a>
     </section>
     <section id="right-box-menu">
         <img alt="تصویری از جواهرات سایت روبی" src="assets/img/image%20login.jpg">
@@ -40,13 +41,13 @@
 <!--این قسمت برای موبایل فعال خواهد شد -->
 
 <div id="mobile-box-items">
-    <img  alt="تصویری از جواهرات سایت روبی" src="assets/img/image%20login.jpg">
+    <img alt="تصویری از جواهرات سایت روبی" src="assets/img/image%20login.jpg">
     <section class="left-box-menu">
         <img src="assets/img/rubiLego-removebg-preview.png" alt="الگو سایت روبی">
         <strong>لطفا در روبی اکانت بسازید</strong>
         <div class="bot-box">
-            <a class="google-bot">گوگل</a>
-            <a class="linkdin-bot">لینکدین</a>
+            <a onclick="alert('برای ساخت اکانت وارد اطلاعات گوگل میشود')" class="google-bot">گوگل</a>
+            <a onclick="alert('برای ساخت اکانت وارد اطلاعات لینکدین میشود')" class="linkdin-bot">لینکدین</a>
         </div>
         <div class="feature-input-box">
             <label for="email-me2">ایمیل</label>
@@ -60,8 +61,9 @@
             <input type="checkbox" name="checkbox" value="ok" id="click">
             <a href="#">فراموش کردن</a>
         </div>
-        <a href="index.html" class="bot-sabt">ثبت</a>
+        <a onclick="checkemail(document.getElementById('email-me').value)" href="index.html" class="bot-sabt">ثبت</a>
     </section>
 </div>
+<script src="assets/js/index.js"></script>
 </body>
 </html>

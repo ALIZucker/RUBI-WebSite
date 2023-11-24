@@ -56,3 +56,14 @@ function humberback() {
     headlego.style.justifyContent='space-between';
 
 }
+function checkemail(textme) {
+    if (textme.includes("@gmail.com")){
+        alert('باموفقیت انجام شد.')
+    }else {
+        alert('خطا در انجام عملیات ایمیل وجود دارد. ')
+    }
+}
+function like(elemnt){
+    elemnt.src='assets/img/icons8-like2-48.png'
+    alert('به سبد علاقه مند ها اضافه شده ')
+}

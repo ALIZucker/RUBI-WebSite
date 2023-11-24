@@ -197,6 +197,7 @@
     color: #eae9e9;
     padding: 4vh 5vw;
     font-size: 1.2vw;
+    cursor: pointer;
 }
 
 #zivar-box-right {

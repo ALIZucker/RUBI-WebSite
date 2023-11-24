@@ -23,7 +23,7 @@
     .logo-web {
         width: 21vw;
         height: 4vh;
-        margin-top: 0.5vh;
+
     }
 
     #humborger-bot-left {
@@ -99,23 +99,26 @@
         display: flex;
         flex-direction: column;
         background-color: whitesmoke;
-        align-items: end;
     }
 
-    #mobile-box-prod-img {
+     #mobile-box-prod-img {
         display: flex;
         flex-direction: row;
-        overflow: scroll;
+        overflow-x: scroll;
     }
 
     #mobile-box-prod-img::-webkit-scrollbar {
         display: none;
     }
 
+    .post-box::-webkit-scrollbar {
+        display: none;
+    }
+
     #mobile-box-prod-img > img {
-        width: 45vw;
+        width: 85%;
         margin: 0 0.5vw;
-        height: 50vh;
+        height: 40vh;
 
 
     }
@@ -133,24 +136,51 @@
         margin-top: 2.5vh;
     }
 
+    #table-menu {
+        margin-top: 3vh;
+
+    }
+
+    #table-menu tr td > span {
+        padding: 0 1vw;
+    }
+
+    .belif-ditail {
+        direction: rtl;
+    }
+
+    .belif-ditail span, strong {
+        margin: 0 1vw;
+    }
+
+    .mobile-box-detail {
+        width: 80%;
+        margin-top: 8vh;
+    }
+
     #mobile-table {
-        width: 100%;
+        width: 80%;
+        direction: rtl;
+        margin-left: 15vw;
     }
 
     #mobile-table tr td {
-        font-size: 2vw;
+        font-size: 3vw;
         direction: rtl;
+    }
+
+    #mobile-table tr td > span {
+        padding: 0 1vw;
     }
 
     .size-product {
         margin-right: 1vw;
         height: 3vh;
         width: 11vw;
-        font-size: 1.8vw;
+        font-size: 2.5vw;
     }
 
     .price-part {
-
         display: flex;
         justify-content: center;
         flex-direction: row-reverse;
@@ -162,8 +192,33 @@
 
     }
 
+    .price-part section {
+        width: 30vw;
+        direction: ltr;
+
+    }
+
+    .price-part section > p {
+        margin-left: 2vw;
+        font-size: 3vw;
+        direction: ltr;
+    }
+
+    .price-part section > span {
+        margin-left: 2vw;
+        font-size: 3vw;
+        text-decoration-line: line-through;
+        text-decoration-color: #272727;
+    }
+
+    .price-part section > img {
+        width: 3vw;
+        height: 2.6vh;
+        margin: 0 2vw
+    }
+
     .sell-product-bot {
-        font-size: 1.9vw;
+        font-size:2.8vw;
         text-align: center;
         background-color: #EB9452;
         padding: 2.5vh 9vw;
@@ -172,14 +227,16 @@
 
 
     }
+
     .box-style-product {
-        width: 100%;
+        width: 95%;
         margin: 0;
         background-color: white;
-        box-shadow:none;
+        box-shadow: none;
         border-radius: 0;
         padding: 0 2vw;
     }
+
     .box-style-product > p {
         direction: rtl;
         padding: 1vh 1vw;
@@ -188,23 +245,27 @@
         text-justify: inter-cluster;
         font-size: 2.5vw;
     }
+
     .box-style-product2 {
         width: 96%;
-        margin:0;
+        margin: 0;
 
         background-color: white;
-        box-shadow:none;
+        box-shadow: none;
         border-radius: 0;
         padding: 3vh 2vw;
-}
-    .box-style-product2  table tr td{
+    }
+
+    .box-style-product2 table tr td {
         font-size: 2.5vw;
         margin: 1vh 9vw;
     }
+
     .box-style-product2 > p {
         font-size: 2.5vw;
         margin: 1vh 3vw;
     }
+
     .box-style-product2 > textarea {
         padding: 1vh 1vw;
         font-size: 2.3vw;
@@ -228,9 +289,11 @@
         color: #e88f22;
         border-radius: 16px;
     }
+
     .footer-box-property {
-        display:none;
+        display: none;
     }
+
     #mobile-footer-box {
         display: flex;
         flex-direction: column;
@@ -238,12 +301,15 @@
         align-items: center;
         padding-top: 7vh;
     }
+
     #footer-detail {
         display: none;
     }
+
     #footer-mobile-ditail {
         display: none;
     }
+
     #footer-mobile-ditail {
         display: flex;
         flex-direction: column;
@@ -278,9 +344,11 @@
         font-size: 3vw;
         margin-left: 1vw;
     }
+
     #footer-end a {
         display: none;
     }
+
     #footer-end p {
         font-size: 3.5vw;
         margin-left: 17.5vw;

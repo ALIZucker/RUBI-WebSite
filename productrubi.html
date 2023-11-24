@@ -19,7 +19,8 @@
         <img src="assets/img/search--removebg-preview.png">
         <img src="assets/img/bascket-removebg-preview.png">
     </section>
-  <a href="index.html">  <img src="assets/img/rubiLego-removebg-preview.png" alt="سایت جواهری روبی " title="لگوی سایت روبی" class="logo-web"></a>
+    <img src="assets/img/rubiLego-removebg-preview.png" alt="سایت جواهری روبی "
+         title="لگوی سایت روبی" class="logo-web">
     <section id="humborger-bot-left" onclick="humberger()">
         <img src="assets/img/icons8-menu-50.png">
     </section>
@@ -70,14 +71,17 @@
 
         <img src="assets/img/icons8-star-48.png" id="star-score"> <b>4.1</b>
 
-        <img src="assets/img/icons8-like-48.png" class="other-icons">
-        <img src="assets/img/icons8-share-48.png" class="other-icons">
-        <img src="assets/img/icons8-bell-48.png" class="other-icons">
-        <img src="assets/img/icons8-compare-58.png" class="other-icons">
-        <img src="assets/img/icons8-plot-50.png" class="other-icons">
-
+        <img onclick="like(document.getElementById('like'))" id="like" src="assets/img/icons8-like-48.png"
+             class="other-icons">
+        <img onclick="alert('وارد بخش به اشتراک گذاشتن میشویم')" src="assets/img/icons8-share-48.png"
+             class="other-icons">
+        <img onclick="alert('وارد بخش به زنگوله موجودی  میشویم')" src="assets/img/icons8-bell-48.png"
+             class="other-icons">
+        <img onclick="alert('وارد بخش به مقایسه  میشویم')" src="assets/img/icons8-compare-58.png" class="other-icons">
+        <img onclick="alert('وارد بخش به برسی قیمت ها میشویم')" src="assets/img/icons8-plot-50.png" class="other-icons">
 
     </div>
+    <!-- نمایش دسکتاپی عکس محصولات-->
     <div id="three-pic-prod">
         <section id="top-pic-prod">
             <img alt="گردنبند مروارید" src="assets/img/pro1.jpg">
@@ -89,7 +93,7 @@
                  id="main-product-pic">
         </section>
     </div>
-
+    <!-- بخش دستکتاپی قیمت محصولات و اطلاعات محصول-->
     <div class="right-box-product">
         <h1>گردن بند نگین مروارید</h1>
         <img id="line2-post" src="assets/img/line%20post2.png">
@@ -103,14 +107,14 @@
             طبیعی با نام مروارید به دست می‌آیند که از داخل صدف صدف‌ها به دست می‌آید.همــچنین برای مشــاهــده بـقیـه
             جواهـــرات به بخش پیشنهاد های روبی مراجعه کنید. </p>
         <section>
-            <table style="margin-top:3vh; ">
+            <table id="table-menu">
                 <tr>
                     <td>رنگ طلا:<a class="colorproduct"></a></td>
-                    <td> اجرت :</td>
+                    <td> اجرت : <span>24%</span></td>
                 </tr>
                 <tr>
-                    <td>وزن طلا:<span style="padding: 0 1vw;">7 گرم</span></td>
-                    <td>وزن:<span style="padding: 0 1vw;">10</span></td>
+                    <td>وزن طلا:<span>7 گرم</span></td>
+                    <td>وزن:<span>10</span></td>
                 </tr>
                 <tr>
                     <td>سایز طلا:<select name="product" id="size-product">
@@ -119,18 +123,17 @@
                         <option value="70">70</option>
                         <option value="20">20</option>
                     </select></td>
-                    <td>برند:<span style="padding: 0 1vw;">لوکس</span></td>
+                    <td>برند:<span>لوکس</span></td>
                 </tr>
             </table>
         </section>
         <section class="price-part">
-            <section style="width:15vw;  direction: ltr;">
-                <p style="margin-left: 1vw;  font-size: 1.5vw; direction: ltr;">10.000.000</p>
-                <span style="margin-left: 1vw; font-size: 1.5vw; text-decoration-line: line-through;text-decoration-color: #272727;">15.000.000</span>
-                <img style="width: 2vw;height: 2.3vh; margin: 0 1vw" src="assets/img/off-removebg-preview.png">
+            <section>
+                <p>10.000.000</p>
+                <span>15.000.000</span>
+                <img src="assets/img/off-removebg-preview.png">
 
             </section>
-
             <a class="sell-product-bot" onclick="alert('با موفقیت به سبد خرید اضافه شد ')">افزودن به سبد خرید</a>
         </section>
 
@@ -148,21 +151,21 @@
     </div>
     <h1>گردن بند نگین مروارید</h1>
 
-    <section style="direction: rtl;">
-        <span style="margin: 0 1vw;">برند:</span><strong style="margin: 0 1vw;">کاسیو</strong>
-        <span style="margin: 0 1vw;">دسته بندی:</span><strong style="margin: 0 1vw;">گوشواره</strong>
-        <span style="margin: 0 1vw;">شناسه:</span><strong style="margin: 0 1vw;">dk.1.12724.5</strong>
+    <section class="belif-ditail">
+        <span>برند:</span><strong>کاسیو</strong>
+        <span>دسته بندی:</span><strong>گوشواره</strong>
+        <span>شناسه:</span><strong>dk.1.12724.5</strong>
     </section>
 
-    <section style="width: 80%;margin-top: 8vh;">
+    <section class="mobile-box-detail">
         <table id="mobile-table">
             <tr>
                 <td>رنگ طلا:<a class="colorproduct"></a></td>
-                <td> اجرت :</td>
+                <td> اجرت : <span>24%</span></td>
             </tr>
             <tr>
-                <td>وزن طلا:<span style="padding: 0 1vw;">7 گرم</span></td>
-                <td>وزن:<span style="padding: 0 1vw;">10</span></td>
+                <td>وزن طلا:<span>7 گرم</span></td>
+                <td>وزن:<span>10</span></td>
             </tr>
             <tr>
                 <td>سایز طلا:<select name="product" class="size-product">
@@ -171,15 +174,15 @@
                     <option value="70">70</option>
                     <option value="20">20</option>
                 </select></td>
-                <td>برند:<span style="padding: 0 1vw;">لوکس</span></td>
+                <td>برند:<span>لوکس</span></td>
             </tr>
         </table>
     </section>
     <section class="price-part">
-        <section style="width:30vw;  direction: ltr;">
-            <p style="margin-left: 2vw;  font-size: 3vw; direction: ltr;">10.000.000</p>
-            <span style="margin-left: 2vw; font-size: 3vw; text-decoration-line: line-through;text-decoration-color: #272727;">15.000.000</span>
-            <img style="width: 3vw;height: 2.6vh; margin: 0 2vw" src="assets/img/off-removebg-preview.png">
+        <section>
+            <p>10.000.000</p>
+            <span>15.000.000</span>
+            <img src="assets/img/off-removebg-preview.png">
 
         </section>
 
@@ -200,37 +203,37 @@
 
     <div class="post-box">
         <article>
-            <a href="productrubi.html"><img src="assets/img/pic1.png" class="post-image"></a>
+            <a href="productrubi.html"><img alt="گردنبند" src="assets/img/pic1.png" class="post-image"></a>
             <img src="assets/img/verline.png" class="post-line">
             <h3>گردنبند نگین مروارید</h3>
             <p>2.600.000</p>
         </article>
         <article>
-            <img src="assets/img/pic2.png" class="post-image">
+            <img src="assets/img/pic2.png" alt="نیم ست" class="post-image">
             <img src="assets/img/verline.png" class="post-line">
             <h3> نیم ست لویی ویتون</h3>
             <p>5.600.000</p>
         </article>
         <article>
-            <img src="assets/img/pic3.png" class="post-image">
+            <img src="assets/img/pic3.png" alt="گوشواره" class="post-image">
             <img src="assets/img/verline.png" class="post-line">
             <h3> گوشواره آکوااربکا</h3>
             <p>3.600.000</p>
         </article>
         <article>
-            <img src="assets/img/pic4.png" class="post-image">
+            <img src="assets/img/pic4.png" alt="گرنبند" class="post-image">
             <img src="assets/img/verline.png" class="post-line">
             <h3> گرنبند تیفالی گوی</h3>
             <p>4.600.000</p>
         </article>
         <article>
-            <img src="assets/img/pic1.png" class="post-image">
+            <img src="assets/img/pic1.png" alt="گردنبند نگین" class="post-image">
             <img src="assets/img/verline.png" class="post-line">
             <h3>گردنبند نگین مروارید</h3>
             <p>2.600.000</p>
         </article>
         <article>
-            <img src="assets/img/pic2.png" class="post-image">
+            <img src="assets/img/pic2.png" alt="نیم ست لویی" class="post-image">
             <img src="assets/img/verline.png" class="post-line">
             <h3> نیم ست لویی ویتون</h3>
             <p>5.600.000</p>

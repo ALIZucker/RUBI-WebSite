@@ -84,7 +84,7 @@ body{
 .feature-input-box {
     display: flex;
     flex-direction: column;
-    direction: rtl;
+    direction: ltr;
 }
 
 .feature-input-box label {
