@@ -166,3 +166,9 @@ table {font-family: Kalameh-Regular; }
 .brand-post {font-family: Kalameh-Regular;
 }
 .right-box-product > h3{font-family: Kalameh-SemiBold;}
+#main-about-me > p {font-family: Kalameh-Regular;}
+#box-about-rubi > h1 {font-family: Kalameh-Bold;}
+#tree-about-rubi-box h2{
+    font-family: Kalameh-Bold;
+}
+#tree-about-rubi-box article span{font-family: Kalameh-SemiBold;}

@@ -4,9 +4,198 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUBI</title>
+
+
+    <link rel="stylesheet" href="assets/css/aboutRuniStyle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/mobileStyle.css">
     <link rel="icon" href="assets/img/rubiLego.PNG">
 </head>
 <body>
 
+<!-- الگوی سایت ابتدای سایت-->
+<div id="lego-container">
+    <section id="right-mobile-icons">
+        <img src="assets/img/search--removebg-preview.png">
+        <img src="assets/img/bascket-removebg-preview.png">
+    </section>
+    <img src="assets/img/rubiLego-removebg-preview.png" alt="سایت جواهری روبی " title="لگوی سایت روبی" class="logo-web">
+    <section id="humborger-bot-left" onclick="humberger()">
+        <img src="assets/img/icons8-menu-50.png">
+    </section>
+</div>
+
+<div id="humbger-menu-items">
+    <img src="assets/img/humber-menu1-removebg-preview.png"><br/>
+    <img src="assets/img/humber-menu-line.png">
+    <section>
+        <div class="item-nav">
+            <ul>
+                <li>دستبند</li>
+                <li>انگشتر</li>
+                <li>گوشواره</li>
+                <li>گردنبند</li>
+                <li>اکسسوری</li>
+                <li>سرویس</li>
+            </ul>
+        </div>
+    </section>
+    <button onclick="humberback()">برگشت</button>
+</div>
+<!-- منو بار سایت شامل انتخاب بخش ها و سرچ سایت-->
+
+<div id="nav-container">
+    <div id="profil-box">
+        <a id="sign-in" href="login.html"> <img src="assets/img/images.jpg"></a>
+        <a id="back-image" onclick="alert('وارد سبد خرید میشوید.')">
+            <img src="assets/img/bascket-removebg-preview.png"></a>
+        <input type="search" id="input-search" placeholder="دنبال چی میگردی ...">
+        <a id="back-image2">
+            <img src="assets/img/bascket-removebg-preview.png"></a>
+    </div>
+    <div class="item-nav">
+        <ul>
+            <li>دستبند</li>
+            <li>انگشتر</li>
+            <li>گوشواره</li>
+            <li>گردنبند</li>
+            <li>اکسسوری</li>
+            <li>سرویس</li>
+        </ul>
+    </div>
+</div>
+<div id="box-about-rubi">
+    <h1>آشنایی مختصر با روبی</h1>
+    <img src="assets/img/line%20post2.png">
+    <section id="main-about-me">
+        <p>روبی را به چه می شناسید؟ اگر بخواهید یک
+            خرید آنلاین انجام دهید اول از همه به کجا سر می زنید؟ ما کارمان را از فروش ساده دست بند و زنجیر طلا
+            شروع کردیم اما حالا بعد از ۱۵ سال و اضافه شدن بازوهای جدید به گروه روبی تلاش می‌کنیم با همراهی شما
+            بهترین پلتفرم تجارت الکترونیک در خارمیانه باشیم. برای تحقق این مأموریت به لبخند شما و ارزش‌هایی الهام بخش
+            باور داریم.
+            <br>
+            خوشحالیم که هم اکنون در روبی، دارنده نماد اعتماد الکترونیکی و مرکز رسمی فروش چندین برند معتبر و ارائه
+            دهنده‌ی ضمانت هفت روزه‌ی روبی، حضور دارید. در این مرکز، برندهای برتر بازار، عرضه می‌شود و سعی ما بر این
+            است که کامل‌ترین و گویاترین اطلاعات محصولات را برای شما جمع‌آوری، ترجمه و نمایش دهیم.
+
+            تمام سعی روبی بر این است که سفارش‌های شما در تهران در همان روز کاری و برای خارج از تهران، بین 24 تا
+            حداکثر 48 ساعت کاری ساعت به دستتان برسد و همیشه راضی از خرید باشید.
+        </p>
+        <video controls>
+            <source src="assets/video/VIDE3O_0.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section id="tree-about-rubi-box">
+        <article>
+            <h2>هویت ما</h2>
+            <p>چه فروشنده روبی باشید، چه خریدار، روبی هویت خود را از شما وام گرفته است. آیا می‌دانید ما چه
+                چشم‌انداز و مأموریتی داریم و برای رسیدن به آنها چطور گام بر می‌داریم؟</p>
+            <span>بیشتر بخوانید</span>
+        </article>
+        <article>
+            <h2>تاریخچه روبی</h2>
+            <p>داستان فراز و فرودهای روبی پر از تجربه، چالش و یادگیری ست، از گسترش تیم روبی به هزاران نفر تا راه اندازی سرویس‌های جدید که همگی در کنار هم روبی را به یک برند ملی، باهوش و فناوری محور تبدیل می‌کنند</p>
+            <span s>بیشتر بخوانید</span>
+        </article>
+        <article>
+            <h2>گروه روبی</h2>
+            <p>تجارت الکترونیک بر پایه تکنولوژی، هسته اصلی فعالیت سایت روبی اما آنچه اکنون جوهره گروه سایت روبی را تشکیل می‌دهد اشتیاق و دغدغه برای خلق ارزش و کمک به توسعه اقتصاد دیجیتال در ایران است.</p>
+            <span>بیشتر بخوانید</span>
+        </article>
+    </section>
+</div>
+<footer id="footer-box">
+    <!--این بخش برای موبایل فعال میشود-->
+    <div id="mobile-footer-box">
+        <img src="assets/img/rubiLego-removebg-preview.png">
+        <h4>آدرس:</h4>
+        <address>تهران -تجریش - خیابان ولیعصر</address>
+    </div>
+    <!-- معرفی ویژگی های سایت مخصوصا ضمانت ها -->
+    <div class="footer-box-property">
+        <article>
+            <a><img src="assets/img/footerpic1-removebg-preview.png"></a>
+            <section class="footer-box-property-text">
+                <h4>امکان</h4>
+                <p>خرید اقساطی</p>
+            </section>
+
+        </article>
+        <article>
+            <a><img src="assets/img/star-removebg-preview.png"></a>
+            <section class="footer-box-property-text">
+                <h4>ساخت</h4>
+                <p>سفارشی محصول</p>
+            </section>
+
+        </article>
+        <article>
+            <a><img src="assets/img/zmanat-removebg-preview.png"></a>
+            <section class="footer-box-property-text">
+                <h4>ضمانت </h4>
+                <p>اصالت محصول</p>
+            </section>
+
+        </article>
+        <article>
+            <a><img src="assets/img/taviz-removebg-preview.png"></a>
+            <section class="footer-box-property-text">
+                <h4>امکان</h4>
+                <p>تعویض محصول</p>
+            </section>
+
+        </article>
+    </div>
+    <img src="assets/img/linefooter.png" class="line-footer">
+    <!--این بهش برای موبایل فعال میشود مشخصات-->
+
+    <div id="footer-mobile-ditail">
+
+        <h4>شماره تماس:</h4>
+        <p>021-33122125</p>
+        <img src="assets/img/linefooter.png" class="line-footer">
+        <section>
+
+            <img src="assets/img/instagram.png">
+            <span>RUBI.com</span>
+            <img src="assets/img/telephone-call.png">
+            <span>09122535565</span>
+
+        </section>
+
+
+    </div>
+
+    <!--مشخصات سایت در این بخش فوتر قرار دارد -->
+
+    <div id="footer-detail">
+        <section id="footer-detail-left">
+            <img src="assets/img/instagram.png">
+            <span>RUBI.com</span>
+            <img src="assets/img/telephone-call.png">
+            <span>09122535565</span>
+        </section>
+        <section>
+            <img src="assets/img/rubiLego-removebg-preview.png" class="logo-web">
+        </section>
+        <section>
+            <h4 class="footer-h4-detail">شماره تماس:</h4>
+            <p class="footer-p-detail">021-33122125</p>
+        </section>
+        <section>
+            <h4 class="footer-h4-detail">آدرس:</h4>
+            <address class="footer-p-detail">تهران -تجریش - خیابان ولیعصر</address>
+        </section>
+    </div>
+    <img src="assets/img/linefooter.png" class="line-footer">
+
+    <div id="footer-end">
+        <p>تمامی حقوق این سایت متعلق به تیم
+            روبی می باشد</p>
+        <a>بازگشت به بالا </a>
+    </div>
+</footer>
+<script src="assets/js/index.js"></script>
 </body>
 </html>
